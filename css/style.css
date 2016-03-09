@@ -8,10 +8,13 @@ div {
     border: 1px solid Chocolate;
 }
 
-.masthead{
-	background-color: white;
-	position:fixed;
-	width:100%;
+.top-navigation{
+	background-color: #fff;
+
+.top-navigation > .content {
+	width:970px;
+	height:70px;
+	margin: 0 auto;
 
 }
 
