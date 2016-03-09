@@ -9,30 +9,27 @@ div {
 }
 
 .top-navigation{
-	background-color: #fff;
+	background-color: #fff;	
+	box-sizing:border-box;
+}
 
 .top-navigation > .content {
 	width:970px;
 	height:70px;
 	margin: 0 auto;
+	padding:0px 15px;
 
 }
 
-li {
+.links {
+	float:right;
+
+}
+
+.links > li{
 	display:inline-block;
-	padding: 0em 1em;
-
-}
-
-#karmalogoheader{
-		max-height:2.5em;
-		max-width:2.5em;
-		padding: 0em 12.5em;
-}
-
-.headerlinks {
-	vertical-align: 15px;
-	font-family: 'Lato', sans-serif;
+	padding:10px 15px;
+	
 }
 
 a:link, a:visited{
