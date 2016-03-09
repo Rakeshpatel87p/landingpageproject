@@ -44,7 +44,7 @@ div {
 	
 }
 
-a:link, 
+li > a:link, 
 a:visited{
 	text-decoration: none;
 	color:#838994;
@@ -55,13 +55,13 @@ a:visited{
     font-weight: 500;
 }
 
-a:hover{
+li > a:hover{
 	color:black;
 }
 
-.middleportion {
+.introduction {
 	background-image:url(../images/backgroundimage.jpg);
-	background-position: center bottom;
+	background-position:center bottom;
 	height:45.938rem;
 	background-repeat:no-repeat;
   	background-size:cover;
@@ -70,35 +70,37 @@ a:hover{
   	font-weight:50;
   	letter-spacing: 0.03em;
 	-webkit-font-smoothing;
+	padding-top:10em;
+	margin:0;
 
 }
 
-.middleportion > h1, h2{
+.introduction > h1, h3{
 	color:white;
+	padding: 0.2em 0;
 	
 }
 
-.introduction{
-	margin-top:5.5em;
+.introductiontext{
 	margin-bottom: .2em;
 	font-size:50px;
 }
 
-#learnmore{
+.learnmore{
 	width: 9.688rem;
 	border-radius: 4px;
 	border-style: none;
 	background-color: #f15a29;
 	color:white;
 	font-size: 1.125rem;
-	padding: 1rem 1.5rem;
+	padding: 1.3rem 1.5rem;
+	cursor:pointer;
 }
 
+.learnmore:hover {
+	background-color:#b34700;
 
-
-
-
-
+}
 
 
 
