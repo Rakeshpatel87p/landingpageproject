@@ -58,3 +58,50 @@ a:visited{
 a:hover{
 	color:black;
 }
+
+.middleportion {
+	background-image:url(../images/backgroundimage.jpg);
+	background-position: center bottom;
+	height:45.938rem;
+	background-repeat:no-repeat;
+  	background-size:cover;
+  	text-align:center;
+  	font-family: 'Roboto', sans-serif;
+  	font-weight:50;
+  	letter-spacing: 0.03em;
+	-webkit-font-smoothing;
+
+}
+
+.middleportion > h1, h2{
+	color:white;
+	
+}
+
+.introduction{
+	margin-top:5.5em;
+	margin-bottom: .2em;
+	font-size:50px;
+}
+
+#learnmore{
+	width: 9.688rem;
+	border-radius: 4px;
+	border-style: none;
+	background-color: #f15a29;
+	color:white;
+	font-size: 1.125rem;
+	padding: 1rem 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
