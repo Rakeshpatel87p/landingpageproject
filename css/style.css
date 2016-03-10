@@ -103,21 +103,36 @@ li >a:hover{
 }
 
 .iconpart{
-	display:inline-block;
-	width:cover;
+	text-align:center;
+	padding-top:5em;
+	background-color: white;
+}
+
+.devices{
+	display:inline block;
+	text-decoration: none;
+	font-family:'Roboto', sans-serif;
+	width:auto;
+	height:auto;
 
 }
 
-
-.icons > img {
-	padding:1em;
-	margin:auto;
-	height:5em;
+.devices > img {
+	padding:3em;
+	height:15em;
 	
 }
 
+.iconslist{
+	margin-right:6em;
 
+}
 
+.iconslist > li {
+	font-family:'Roboto', sans-serif;
+	font-size:1.3em;
+	display:inline-block;
+	padding:0em 3em;
 
-
+}
 
