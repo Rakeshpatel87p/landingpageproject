@@ -102,6 +102,20 @@ li >a:hover{
 
 }
 
+.iconpart{
+	display:inline-block;
+	width:cover;
+
+}
+
+
+.icons > img {
+	padding:1em;
+	margin:auto;
+	height:5em;
+	
+}
+
 
 
 
