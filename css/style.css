@@ -21,50 +21,45 @@ div {
 }
 
 .top-navigation > .content {
-	width:60%;
+	width:60rem;
+	padding: 14px 15px;
 	height:4.375rem;
 	margin: 0 auto;
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	color: #838994;
-	letter-spacing: 0.03em;
-	-webkit-font-smoothing
-
 
 }
 
-.links {
+.top-navigation .links {
 	float:right;
+	font-family: 'Roboto', sans-serif;
+	color: #838994;
+	font-size: 16px;
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing:antialiased;
 
 }
 
-.links > li{
+.top-navigation .links li{
 	display:inline-block;
-	margin:10px 15px;
+	margin-left:25px;
 	
 }
 
-li > a:link, 
-a:visited{
-	text-decoration: none;
-	color:#838994;
+.top-navigation .links .active {
+	color: black;
+    font-weight: 500;	
 }
 
-.top-navigation .links > .active {
-	color: #4c5058;
-    font-weight: 500;
-}
-
-li >a:hover{
-	color:black;
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
 }
 
 .introduction {
 	background-image:url(../images/backgroundimage.jpg);
 	background-position:center bottom;
-	height:45.938rem;
 	background-repeat:no-repeat;
   	background-size:cover;
+  	height:45.938rem;
   	text-align:center;
   	font-family: 'Roboto', sans-serif;
   	font-weight:50;
