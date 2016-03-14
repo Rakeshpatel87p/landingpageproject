@@ -6,9 +6,12 @@
 }
 
 body {
-    background-color: grey;
+    background-color: white;
     margin:0;
     padding:0;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+	-webkit-font-smoothing:antialiased;
 }
 
 div {
@@ -17,24 +20,28 @@ div {
 
 .top-navigation{
 	background-color: #fff;	
-	box-sizing:border-box;
+	position:fixed;
+	width:100%;
+	z-index:9999;
 }
 
-.top-navigation > .content {
-	width:60rem;
-	padding: 14px 15px;
-	height:4.375rem;
+.content{	
 	margin: 0 auto;
+	width:60%;
+	padding: 0 0.938rem;
+	box-sizing:border-box;
+	text-align:center;
+}
 
+.top-navigation .content {
+	height:4.375rem;
+	padding-top: 15px;
 }
 
 .top-navigation .links {
 	float:right;
-	font-family: 'Roboto', sans-serif;
 	color: #838994;
 	font-size: 16px;
-	letter-spacing: 0.03em;
-	-webkit-font-smoothing:antialiased;
 
 }
 
@@ -60,74 +67,66 @@ div {
 	background-repeat:no-repeat;
   	background-size:cover;
   	height:45.938rem;
-  	text-align:center;
-  	font-family: 'Roboto', sans-serif;
+  	overflow:auto;
+
+}
+
+.introduction .content {
+	margin-top: 13em;
   	font-weight:50;
-  	letter-spacing: 0.03em;
-	-webkit-font-smoothing;
-	padding-top:10em;
-	margin:0;
-
+  	color:white;
 }
 
-.introduction > h1, h3{
-	color:white;
-	padding: 0.2em 0;
-	
+.introduction h1 {
+	font-size:3.125rem;
+	font-weight:300;
 }
 
-.introductiontext{
-	margin-bottom: .2em;
-	font-size:50px;
+.introduction h3 {
+	font-size:1.563rem;
+	font-weight:300;
 }
 
-.learnmore{
+button {
 	width: 9.688rem;
 	border-radius: 4px;
 	border-style: none;
 	background-color: #f15a29;
 	color:white;
 	font-size: 1.125rem;
-	padding: 1.3rem 1.5rem;
-	cursor:pointer;
+	padding: 1rem 1.5rem;
 }
 
-.learnmore:hover {
+button:hover {
+	cursor:pointer;
 	background-color:#b34700;
 
 }
 
-.iconpart{
-	text-align:center;
-	padding-top:5em;
-	background-color: white;
+.cases h2 {
+	font-size:2.75rem;
+	font-weight:300;
+	margin:8.625rem 0 3.125rem 0;
 }
 
-.devices{
-	display:inline block;
-	text-decoration: none;
-	font-family:'Roboto', sans-serif;
-	width:auto;
-	height:auto;
-
-}
-
-.devices > img {
-	padding:3em;
-	height:15em;
-	
-}
-
-.iconslist{
-	margin-right:6em;
-
-}
-
-.iconslist > li {
-	font-family:'Roboto', sans-serif;
-	font-size:1.3em;
+.cases .content .devices {
+	width:32.9%;
 	display:inline-block;
-	padding:0em 3em;
+	/*styles ot assist with debugging */
+	border: 1px solid black;
+	box-sizing:border-box;
+	vertical-align: top;
 
 }
 
+.cases .content .devices img {
+	height:127px;
+	width:127px;
+}
+
+.cases .content .devices h3 {
+	margin-top: 2.5rem;
+	font-size: 1.563rem;
+	font-weight: 400;
+	vertical-align:text-top;
+}
