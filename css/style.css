@@ -22,7 +22,7 @@ footer {
 	z-index:9999;
 }
 
-.content{	
+.content {	
 	margin: 0 auto;
 	width:60%;
 	padding: 0 0.938rem;
@@ -43,7 +43,6 @@ footer {
 	float:right;
 	color: #838994;
 	font-size: 16px;
-
 }
 
 .top-navigation .links li{
@@ -69,22 +68,22 @@ footer {
   	background-size:cover;
   	height:45.938rem;
   	overflow:auto;
-
 }
 
 .introduction .content {
-	margin-top: 13em;
+  	margin-top: 16.5em;
   	font-weight:50;
   	color:white;
 }
 
 .introduction h1 {
-	margin-top: 5em;
+	margin:0;
 	font-size:3.125rem;
 	font-weight:300;
 }
 
 .introduction h3 {
+	margin-top:1rem;
 	font-size:1.563rem;
 	font-weight:300;
 }
@@ -105,6 +104,10 @@ button:hover {
 
 }
 
+.cases {
+	padding-bottom:5rem;
+}
+
 .cases h2 {
 	font-size:2.75rem;
 	font-weight:300;
@@ -115,7 +118,6 @@ button:hover {
 	width:32.9%;
 	display:inline-block;
 	/*styles ot assist with debugging */
-	border: 1px solid black;
 	box-sizing:border-box;
 	vertical-align: top;
 
@@ -131,6 +133,19 @@ button:hover {
 	font-size: 1.563rem;
 	font-weight: 400;
 	vertical-align:text-top;
+}
+
+footer hr {
+	border-top:1px solid #eaebec;
+	margin:1.313rem;
+	display:block;
+}
+
+footer h5{
+	font-size:0.83em;
+	font-weight:initial;
+	-webkit-margin-before: 1.67em;
+    -webkit-margin-after: 1.67em;
 }
 
 footer ul.socialicons {
