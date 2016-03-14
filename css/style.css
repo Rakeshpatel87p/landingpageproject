@@ -38,6 +38,10 @@ div {
 	padding-top: 15px;
 }
 
+.top-navigation .content .logo {
+	float:left;
+}
+
 .top-navigation .links {
 	float:right;
 	color: #838994;
@@ -129,4 +133,14 @@ button:hover {
 	font-size: 1.563rem;
 	font-weight: 400;
 	vertical-align:text-top;
+}
+
+footer ul.socialicons {
+	list-style-type: none;
+}
+
+footer .socialicons li{
+	display:inline-block;
+	border: 1px solid #eaebec;
+	border-radius: 1.25rem;
 }
